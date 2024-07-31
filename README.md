@@ -1,3 +1,5 @@
-Initial commit for currently named project "GoGameExperiment"
+Experimental project to test help develop my Golang and other programming languages.   
 
-TODO: Update
+The idea behind this repo will be to create a Bot to play a pre-defined deck against what will hopefully be a customisable deck by the player. 
+
+Improvements will then include trying to incorporate external api calls and graphics - where possible.
