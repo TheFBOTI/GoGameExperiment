@@ -7,5 +7,6 @@ type Card struct {
 	Description string
 	Power       int
 	Toughness   int
-	ManaCost    int
+	// Mana Cost to be improved to include different colours at a later date.
+	ManaCost int
 }

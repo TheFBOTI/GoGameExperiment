@@ -26,7 +26,7 @@ func (p *Player) CheckLoseCondition() bool {
 		fmt.Printf("%s has lost the game!\n", p.Name)
 		return true
 	}
-	if len(p.Deck) >= 0 {
+	if len(p.Deck) <= 0 {
 		fmt.Printf("%s has no cards left to play!\n", p.Name)
 		return true
 	}
